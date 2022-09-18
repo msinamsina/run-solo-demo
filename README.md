@@ -33,7 +33,7 @@ for download initial weghits use folowing table
 <tr>
 <td align="left">SOLOv2_R50_3x</td>
 <td align="left"><details><summary> download </summary><pre><code>wget https://cloudstor.aarnet.edu.au/plus/s/chF3VKQT4RDoEqC/download -O SOLOv2_R50_3x.pth</code></pre> </details> </td>
-<td align="left"><details><summary> download </summary><pre><code>wget https://github.com/aim-uofa/AdelaiDet/blob/master/configs/SOLOv2/R50_3x.yaml -O configs/SOLOv2/R50_3x.yaml</code></pre> </details> </td> 
+<td align="left"><details><summary> download </summary><pre><code>configs/SOLOv2/R50_3x.yaml</code></pre> </details> </td> 
 <td align="left"><details><summary> Run </summary><pre><code>wget https://tryolabs.com/assets/blog/2018-03-01-introduction-to-visual-question-answering/visual-question-answering-aa6ecaa14a.jpg -O input1.jpg \
 python demo/demo.py --config-file configs/SOLOv2/R50_3x.yaml \
 --input input1.jpg --output output1.jpg \
