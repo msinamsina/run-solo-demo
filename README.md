@@ -11,6 +11,12 @@ git clone https://github.com/msinamsina/run-solo-demo.git
 cd run-solo-demo
 sh demo.sh
 ```
+for train solo on COCO dataset run:
+```
+git clone https://github.com/msinamsina/run-solo-demo.git
+cd run-solo-demo
+sh train.sh
+```
 
 ## details: 
 for setup your envirenment run: 
