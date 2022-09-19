@@ -47,3 +47,11 @@ python demo/demo.py --config-file configs/SOLOv2/R50_3x.yaml \
 --input input1.jpg --output output1.jpg \
 --opts MODEL.WEIGHTS SOLOv2_R50_3x.pth</code></pre> </details> 
 </tr>   </tbody></table>
+
+# ToDo:
+- [ ] Add CIHP to AdelaiDet 
+- [ ] Train Solo-v2 On CIHP
+- [ ] Create Only Human Instance Dataset
+- [ ] Train only Human Instances
+- [ ] Create New repo for your frame work or use msadet
+- [ ] ...
