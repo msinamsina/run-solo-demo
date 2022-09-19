@@ -70,7 +70,11 @@ unzip annotations_trainval2017.zip -d datasets/coco/
 for train run 
 
 ```
-OMP_NUM_THREADS=1 python tools/train_net.py --config-file configs/SOLOv2/R50_3x.yaml --num-gpus 1 --resume   OUTPUT_DIR training_dir/SOLOv2_R50_3x
+OMP_NUM_THREADS=1 python tools/train_net.py \
+          --config-file configs/SOLOv2/R50_3x.yaml \
+          --num-gpus 1 \
+          --resume \
+          OUTPUT_DIR training_dir/SOLOv2_R50_3x
 ```
 
 
