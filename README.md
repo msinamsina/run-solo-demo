@@ -5,6 +5,8 @@ I use [AdelaiDet](https://github.com/aim-uofa/AdelaiDet) repo and its user gide 
 
 ## Quick Start
 
+If you dont install cuda yet please see [how to install cuda-11-1 on ubuntu 20.04](https://gist.github.com/msinamsina/8bdefa052cce5bb76f17150dcd14494a)
+
 for run solo on an image run:
 ```
 git clone https://github.com/msinamsina/run-solo-demo.git
