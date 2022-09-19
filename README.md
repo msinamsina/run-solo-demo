@@ -84,4 +84,6 @@ OMP_NUM_THREADS=1 python tools/train_net.py \
 - [ ] Create Only Human Instance Dataset
 - [ ] Train only Human Instances
 - [ ] Create New repo for your frame work or use msadet
-- [ ] ...
+- [ ] Visualization of model output
+- [x] Setup Upboard
+- [ ] Setup tensorboard
