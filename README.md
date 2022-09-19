@@ -30,6 +30,7 @@ cd AdelaiDet-M
 python setup.py build develop
 ```
 
+## Run on an image
 for download initial weghits use folowing table
 
 <table class="docutils">
@@ -47,6 +48,31 @@ python demo/demo.py --config-file configs/SOLOv2/R50_3x.yaml \
 --input input1.jpg --output output1.jpg \
 --opts MODEL.WEIGHTS SOLOv2_R50_3x.pth</code></pre> </details> 
 </tr>   </tbody></table>
+
+## Train on COCO
+
+### download dataset
+
+```
+wget -c http://images.cocodataset.org/zips/train2017.zip
+wget -c http://images.cocodataset.org/zips/val2017.zip
+wget -c http://images.cocodataset.org/annotations/annotations_trainval2017.zip
+
+mkdir datasets
+mkdir datasets/coco
+
+unzip train2017.zip -d datasets/coco/
+unzip val2017.zip -d datasets/coco/
+unzip annotations_trainval2017.zip -d datasets/coco/
+
+```
+
+for train run 
+
+```
+OMP_NUM_THREADS=1 python tools/train_net.py --config-file configs/SOLOv2/R50_3x.yaml --num-gpus 1 --resume   OUTPUT_DIR training_dir/SOLOv2_R50_3x
+```
+
 
 # ToDo:
 - [ ] Add CIHP to AdelaiDet 
