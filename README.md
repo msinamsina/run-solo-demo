@@ -87,6 +87,21 @@ tar -xvf  instance-level_human_parsing.tar.gz
 mv instance-level_human_parsing CIHP
 
 ```
+for train run 
+```
+OMP_NUM_THREADS=1 python tools/train_net.py \
+          --config-file configs/SOLOv2/CIHP_R50_3x.yaml \
+          --num-gpus 1 \
+          --resume \
+          OUTPUT_DIR training_dir/SOLOv2_CIHP_R50_3x
+
+```
+if you want to change defult directory of datasets use this commmand:
+
+```
+export DETECTION2_DATASETS=/path/to/datasets
+```
+
 
 # ToDo:
 - [ ] Add CIHP to AdelaiDet 
