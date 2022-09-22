@@ -84,7 +84,6 @@ OMP_NUM_THREADS=1 python tools/train_net.py \
 ```
 gdown 1HdqA8yWVxZ8od0hngKzZTziHx_ONzCWj
 tar -xvf  instance-level_human_parsing.tar.gz
-mkdir datasets
 mv instance-level_human_parsing datasets/CIHP
 
 ```
