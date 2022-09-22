@@ -28,6 +28,8 @@ python -m pip install torch==1.8.2 torchvision==0.9.2 torchaudio==0.8.2 --extra-
 git clone https://github.com/msinamsina/AdelaiDet-M.git
 cd AdelaiDet-M
 python setup.py build develop
+pip install imantics
+
 ```
 
 ## Run on an image
