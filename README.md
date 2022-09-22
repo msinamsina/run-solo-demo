@@ -77,6 +77,16 @@ OMP_NUM_THREADS=1 python tools/train_net.py \
           OUTPUT_DIR training_dir/SOLOv2_R50_3x
 ```
 
+## Train on CIHP
+
+### download dataset
+
+```
+gdown 1HdqA8yWVxZ8od0hngKzZTziHx_ONzCWj
+tar -xvf  instance-level_human_parsing.tar.gz
+mv instance-level_human_parsing CIHP
+
+```
 
 # ToDo:
 - [ ] Add CIHP to AdelaiDet 
