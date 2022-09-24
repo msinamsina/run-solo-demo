@@ -106,8 +106,8 @@ export DETECTION2_DATASETS=/path/to/datasets
 
 
 # ToDo:
-- [ ] Add CIHP to AdelaiDet 
-- [ ] Train Solo-v2 On CIHP
+- [x] Add CIHP to AdelaiDet 
+- [x] Train Solo-v2 On CIHP
 - [ ] Create Only Human Instance Dataset
 - [ ] Train only Human Instances
 - [ ] Create New repo for your frame work or use msadet
