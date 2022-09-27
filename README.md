@@ -110,12 +110,12 @@ if you want to change defult directory of datasets use this commmand:
 ```
 export DETECTION2_DATASETS=/path/to/datasets
 ```
-for evaluate
+## evaluate
 ```
 OMP_NUM_THREADS=1 python tools/train_net.py \
     --config-file configs/SOLOv2/R50_3x.yaml \
     --eval-only \
-    --num-gpus 8 \
+    --num-gpus 1 \
     OUTPUT_DIR training_dir/SOLOv2_R50_3x \
     MODEL.WEIGHTS training_dir/SOLOv2_R50_3x/model_final.pth
 ```
