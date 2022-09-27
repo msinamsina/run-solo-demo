@@ -49,7 +49,14 @@ for download initial weghits use folowing table
 python demo/demo.py --config-file configs/SOLOv2/R50_3x.yaml \
 --input input1.jpg --output output1.jpg \
 --opts MODEL.WEIGHTS SOLOv2_R50_3x.pth</code></pre> </details> 
-</tr>   </tbody></table>
+</tr> 
+<tr></tbody></table>
+
+
+|  Model            | weight                                                                       |  log-dir      |   Discribtion  |  APr |
+|:-----------------:|:-----------------------------------------------------------------------------|:-------------:|:---------------|------|
+|   SOLOv2_R50_3x   | [download](https://cloudstor.aarnet.edu.au/plus/s/chF3VKQT4RDoEqC/download)  |  -            | Orginal        | -    |
+| CIHP_R50_3x       | [downlaod](https://drive.google.com/file/d/1H51aSHVyBf7jqdKK4JafN6HpFiFhyMbZ/view?usp=sharing)|[Open](https://drive.google.com/drive/folders/1A79XvOtMmnCg90CF0dG70KB4Cg0GtYFF?usp=sharing)| train SOLOv2 on CIHP dataset |33.469|
 
 ## Train on COCO
 
