@@ -33,31 +33,27 @@ pip install imantics
 ```
 
 ## Run on an image
-for download initial weghits use folowing table
-
-<table class="docutils">
-<tbody>
-<th width="80"> Model </th>
-<th valign="bottom" align="left" width="100">Weghits</th>
-<th valign="bottom" align="left" width="100">Configs</th>
-<th valign="bottom" align="left" width="100">Run</th>
-<tr>
-<td align="left">SOLOv2_R50_3x</td>
-<td align="left"><details><summary> download </summary><pre><code>wget https://cloudstor.aarnet.edu.au/plus/s/chF3VKQT4RDoEqC/download -O SOLOv2_R50_3x.pth</code></pre> </details> </td>
-<td align="left"><details><summary> show </summary><pre><code>configs/SOLOv2/R50_3x.yaml</code></pre> </details> </td> 
-<td align="left"><details><summary> Run </summary><pre><code>wget https://tryolabs.com/assets/blog/2018-03-01-introduction-to-visual-question-answering/visual-question-answering-aa6ecaa14a.jpg -O input1.jpg; \
-python demo/demo.py --config-file configs/SOLOv2/R50_3x.yaml \
---input input1.jpg --output output1.jpg \
---opts MODEL.WEIGHTS SOLOv2_R50_3x.pth</code></pre> </details> 
-</tr> 
-<tr></tbody></table>
+At first download initial weghits useing folowing table
 
 
 |  Model            | weight                                                                       |  log-dir      |   Discribtion  |  APr |
 |:-----------------:|:-----------------------------------------------------------------------------|:-------------:|:---------------|------|
 |   SOLOv2_R50_3x   | [download](https://cloudstor.aarnet.edu.au/plus/s/chF3VKQT4RDoEqC/download)  |  -            | Orginal        | -    |
 | CIHP_R50_3x       | [downlaod](https://drive.google.com/file/d/1H51aSHVyBf7jqdKK4JafN6HpFiFhyMbZ/view?usp=sharing)|[Open](https://drive.google.com/drive/folders/1A79XvOtMmnCg90CF0dG70KB4Cg0GtYFF?usp=sharing)| train SOLOv2 on CIHP dataset [link](https://github.com/msinamsina/run-solo-demo/blob/main/results/SOLOv2-CIHP.md)|33.469|
-|  SOLOv2_R50_3x   | - | -| -| 31.463|
+|  SOLOv2_R50_3x   | [downlaod](https://drive.google.com/file/d/1OcSzGdW6srstKFoO5d_JWO4F_NBT10bd/view?usp=sharing) | [Open](https://drive.google.com/drive/folders/1eyOdE4Zl8iX0oQj3jEZ4hG5zOmFqj6aE?usp=sharing)| solov2 trained on COCO with BATCH-SIZE 4 | 31.463|
+
+
+and run:
+```
+#download arbitrary image
+wget https://tryolabs.com/assets/blog/2018-03-01-introduction-to-visual-question-answering/visual-question-answering-aa6ecaa14a.jpg -O input1.jpg;
+
+```
+```
+python demo/demo.py --config-file /PATH/TO/CONFIG-FILE \
+          --input input1.jpg --output output1.jpg \
+          --opts MODEL.WEIGHTS /PATH/TO/WEGHIT
+```
 
 ## Train on COCO
 
