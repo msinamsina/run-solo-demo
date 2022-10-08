@@ -1,0 +1,30 @@
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.332
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.533
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.355
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.202
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.441
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.477
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.209
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.488
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.493
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.345
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.647
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.674
+
+
+
+
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 33.216 | 53.289 | 35.504 | 20.167 | 44.052 | 47.697 
+
+
+| category   | AP     | category     | AP     | category   | AP     |
+|:-----------|:-------|:-------------|:-------|:-----------|:-------|
+| Hat        | 54.773 | Hair         | 54.137 | Glove      | 8.751  |
+| Sunglasses | 20.942 | UpperClothes | 50.215 | Dress      | 42.396 |
+| Coat       | 50.138 | Socks        | 17.373 | Pants      | 54.035 |
+| Torso-skin | 38.293 | Scarf        | 11.382 | Skirt      | 36.589 |
+| Face       | 66.472 | Left-arm     | 23.432 | Right-arm  | 25.932 |
+| Left-leg   | 21.372 | Right-leg    | 22.260 | Left-shoe  | 16.034 |
+| Right-shoe | 16.572 |              |        |            |        |
