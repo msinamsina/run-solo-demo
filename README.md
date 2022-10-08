@@ -41,6 +41,7 @@ At first download initial weghits useing folowing table
 |   SOLOv2_R50_3x   | [download](https://cloudstor.aarnet.edu.au/plus/s/chF3VKQT4RDoEqC/download)  |  -            | Orginal        | 37.6 |
 | CIHP_R50_3x       | [downlaod](https://drive.google.com/file/d/1H51aSHVyBf7jqdKK4JafN6HpFiFhyMbZ/view?usp=sharing)|[Open](https://drive.google.com/drive/folders/1A79XvOtMmnCg90CF0dG70KB4Cg0GtYFF?usp=sharing)| train SOLOv2 on CIHP dataset [link](https://github.com/msinamsina/run-solo-demo/blob/main/results/SOLOv2-CIHP.md)|33.469|
 |  SOLOv2_R50_3x   | [downlaod](https://drive.google.com/file/d/1OcSzGdW6srstKFoO5d_JWO4F_NBT10bd/view?usp=sharing) | [Open](https://drive.google.com/drive/folders/1eyOdE4Zl8iX0oQj3jEZ4hG5zOmFqj6aE?usp=sharing)| solov2 trained on COCO with BATCH-SIZE 4 | 31.463|
+|CIHP_R50_3x       | [downlaod](https://drive.google.com/file/d/1s3jT4mfFIPx_zMmrYjlnXOgZrdeDhJx_/view?usp=sharing)   | [Open](https://drive.google.com/drive/folders/1vP7EB92d1BtHUiVH47LmL5L5eJ59QEvk?usp=sharing) | version2 of implimentation of CIHP dataset in detectron2 framework |   33.2157 |
 
 
 and run:
